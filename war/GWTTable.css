@@ -1,0 +1,174 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.tableImage {
+   background-image:url(/img/table.jpg);
+} 
+.narrowlabel {
+  font-weight: bold;
+  font-family: courier, serif;
+  margin: 0px;
+  padding: 2px;
+  border-width: 0px;
+}
+.narrowany {
+  margin: -2px;
+  padding: -2px;
+  border-width: -2px;
+}
+.playerbox {
+  background-color: #cccccc;
+  font-weight: bold;
+  font-family: courier, serif;
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  width: 82px;
+}
+.playerframe {
+  background-color: #555555;
+  font-weight: bold;
+  margin: 0px;
+  padding: 3px;
+  border-width: 0px;
+  width: 86px;
+  height: 26px;
+  font-family: courier, serif;
+}
+.playerstatus {
+  font-weight: bold;
+  font-family: courier, serif;
+}
+
+.pottotal {
+  background-color: #ccccff;
+  font-weight: bold;
+  margin: 2px;
+  padding: 2px;
+  border-width: 2px;
+}
+.potframe {
+  background-color: #222222;
+  font-weight: bold;
+  margin: 2px;
+  padding: 2px;
+  border-width: 2px;
+}
+.chatpanel {
+  background-color: #cccccc;
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+}
+.chatbox {
+  font-size: 9pt;
+}
+
+.betpanel {
+  background-color: #aaaacc;
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+}
+.betbutton {
+  font-weight: bold;
+  /*font-family: courier, serif;*/
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 0px;
+  border-width: 4px;
+}
+.bettext {
+  font-weight: bold;
+  /*font-family: courier, serif;*/
+  font-size: 1.2em;
+}
+.topline {
+  font-weight: bold;
+  font-size: 12pt;
+  margin: 2px;
+  padding: 2px;
+  border-width: 2px;
+}
+.seatbutton {
+  font-weight: bold;
+  /*font-family: courier, serif;*/
+  font-size: 1.2em;
+  margin: 2px;
+  padding: 2px;
+  border-width: 2px;
+}
+
+.gwt-SliderBar-shell {
+  border: 2px solid #faf9f7;
+  border-right: 2px solid #848280;
+  border-bottom: 2px solid #848280;
+  background-color: #efebe7;
+  height: 10pt;
+  width: 120pt;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-line {
+  border: 1px solid black;
+  background-color: black;
+  height: 4px;
+  width: 95%;
+  top: 2pt;
+  overflow: hidden;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-knob {
+  top: 1pt;
+  width: 5px;
+  height: 4px;
+  z-index: 1;
+  cursor: pointer;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-tick {
+  top: 1pt;
+  width: 1px;
+  height: 3pt;
+  background: black;
+  overflow: hidden;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-label {
+  top: 1pt;
+  font-size: 8pt;
+  cursor: default;
+}
+.gwt-SliderBar-shell-focused {
+}
+.gwt-SliderBar-shell .gwt-SliderBar-line-sliding {
+  background-color: #DDDDDD;
+  cursor: pointer;
+}
